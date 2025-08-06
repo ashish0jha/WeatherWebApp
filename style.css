@@ -43,7 +43,7 @@ body {
   padding: 15px;
 }
 .motio1{
-  transform: translateY(30px);
+  transform: translateY(70px);
 }
 #headPart{
   color:white; 
@@ -182,11 +182,17 @@ img{
 }
 @media(max-width:460px){
   .kuchto{
-    right:5rem;
-    top:6rem;
+    right:2uw;
+    top:13vh;
   }
   #headig{
     left:3rem
+  }
+  #sajawat{
+    width:96vw;
+  }
+  .motio{
+    width:290px;
   }
 }
 @media(max-width:370px){
