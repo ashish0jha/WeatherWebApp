@@ -215,7 +215,7 @@ img{
     transform: translateY(20px);
   }
   .update{
-    transform: translateY(30px);
+    transform: translateY(40px);
     font-size: 4rem;
   }
 }
