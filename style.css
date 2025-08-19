@@ -213,6 +213,7 @@ img{
     transform: translateY(20px);
   }
   .update{
-    transform: translateY(20px);
+    transform: translateY(30px);
+    font-size: 4rem;
   }
 }
