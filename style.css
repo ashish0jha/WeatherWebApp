@@ -37,7 +37,7 @@ body {
   transform: translateY(130px);
   background-color:rgba(71, 69, 69,0.7) ;
   width:600px;
-  height:190px;
+  height:150px;
   border-radius: 25px;
   border:2px solid black;
   padding: 15px;
@@ -58,7 +58,6 @@ body {
   color:rgb(0, 0, 0);
   padding-left: 10px;
   font-size: 22px;
-  font-family:cursive; 
   background-color: rgb(245, 246, 248);
 }
 #input:hover{
@@ -119,7 +118,6 @@ img{
 }
 .subinfo{
   font-size: 12px;
-  font-family:cursive;
 
   display: flex;
   flex-direction: column;
@@ -192,7 +190,8 @@ img{
     width:96vw;
   }
   .motio{
-    width:290px;
+    width:320px;
+    height:200px;
   }
 }
 @media(max-width:370px){
@@ -203,5 +202,14 @@ img{
   #headig{
     width: 160px;;
     left:25vw;
+  }
+  #headPart{
+    font-size: 2rem;
+  }
+  .motio{
+    height:100px;
+  }
+  #chek2{
+    transform: translateY(20px);
   }
 }
