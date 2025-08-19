@@ -40,6 +40,7 @@ function csspart(){
     document.querySelector('#headPart').className='';
     document.querySelector('#headPart').id='headig';
     realcity.id='headPart';
+    realcity.className='update';
     city.style.height='25px';
     city.style.fontSize='16px';
     city.style.width='200px';

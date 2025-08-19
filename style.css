@@ -212,4 +212,7 @@ img{
   #chek2{
     transform: translateY(20px);
   }
+  .update{
+    transform: translateY(20px);
+  }
 }
