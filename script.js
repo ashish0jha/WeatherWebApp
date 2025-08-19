@@ -39,6 +39,9 @@ function csspart(){
     document.querySelector('#img7').src='visiility.png'
     document.querySelector('#headPart').className='';
     document.querySelector('#headPart').id='headig';
+    document.querySelectorAll('.chage').forEach(function(value){
+        value.style.visibility='visible';
+    });
     realcity.id='headPart';
     realcity.className='update';
     city.style.height='25px';
